@@ -1,0 +1,15 @@
+subprojects {
+  repositories {
+      mavenCentral()
+  }
+
+  plugins.withType(JavaPlugin) {
+    dependencies {
+      testCompile 'org.testng:testng:6.8.8'
+    }
+
+    test {
+      useTestNG()
+    }
+  }
+}

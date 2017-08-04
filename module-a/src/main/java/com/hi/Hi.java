@@ -1,4 +1,4 @@
 package com.hi;
 
-public class Hi {
+class Hi {
 }

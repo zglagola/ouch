@@ -1,4 +1,4 @@
 package com.bye;
 
-public class Bye {
+class Bye {
 }
